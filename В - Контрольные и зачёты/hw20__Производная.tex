@@ -1,0 +1,50 @@
+% !TeX encoding = windows-1251
+\documentclass[a4paper,12pt]{article}
+\usepackage{newlistok}
+
+\УвеличитьВысоту{2.5cm}
+\УвеличитьШирину{1.5cm}
+\renewcommand{\spacer}{\smallskip}
+
+\Заголовок{Домашняя работа}
+\def\словоЛисток{ДЗ \No\/}
+\НомерЛистка{20}
+\ДатаЛистка{апрель 2014г.}
+
+\begin{document}
+
+\ncopy{4}{
+\vspace*{-12mm}
+\СоздатьЗаголовок
+
+\задача
+Найдите $f'(1)$, если $f(x) = x + (x-1)\arcsin\sqrt{\dfrac{x}{x+1}}$.
+\кзадача
+
+\задача
+Найдите производные функций:\\
+\пункт
+$f(x) = e^{-x^2}$;
+\пункт
+$f(x) = x\sqrt{1+x^2}$;
+\пункт
+$f(x) = \tg\dfrac{x}2 - \ctg\dfrac{x}2$;
+\пункт
+$f(x) = \dfrac{x^p(1-x)^q}{1+x}$;\\
+\пункт
+$f(x) = \dfrac14 \ln \dfrac{x^2-1}{x^2+1}$;
+\пункт
+$f(x) = \sqrt{1+x} - \ln(1 + \sqrt{1+x})$;
+\пункт
+$f(x) = \ln\tg\dfrac{x}2$.
+\кзадача
+
+\сзадача
+Обозначим $P_n$ такой многочлен $n$-ой степени, что $P_n(0) = P_n'(0) = P_n''(0) = \ldots = P_n^{(n)}(0) = 1$.
+Вычислите $\limn P_n(1)$.
+\кзадача
+
+\hrl
+}
+
+\end{document}
